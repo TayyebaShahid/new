@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .item{
+            width: 200px;
+            height: 100px;
+            margin: 50px;
+            font-size: 50px;
+            border: 1px solid black;
+            transition: 1s;
+            text-align: center;
+        }
+        .item:hover{
+            transform: rotate(50deg);
+        }
+        .items{
+            width: 250px;
+            height: 100px;
+            margin: 50px;
+            font-size: 50px;
+            border: 1px solid black;
+            transition: 1s;
+            text-align: center;
+        }
+        .items:hover{
+            transform: scaleX(-20%);
+        }
+        .itemss{
+            width: 200px;
+            height: 100px;
+            margin: 50px;
+            font-size: 50px;
+            border: 1px solid black;
+            transition: 1s;
+            text-align: center;
+        }
+        .itemss:hover{
+            transform: translate(20%);
+        }
+    </style>
+</head>
+<body>
+    <div class="item">Rotate</div>
+    <div class="items">scale 20%</div>
+    <div class="itemss">transition</div>
+</body>
+</html>
